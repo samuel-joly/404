@@ -13,7 +13,7 @@ p
 	text-shadow:3px 3px 3px black;
 }
 
-article
+div
 {
 	margin:auto;
 	margin-top:298px;
@@ -31,16 +31,33 @@ strong
 }
 
 
-img
+@keyframes pursuit {
+	from {left:220px;}
+	to {left:1400px;}
+}
+
+@keyframes flee{
+	from {left:220px;}
+	to {left:1300px;}
+}
+
+#peach
 {
-	float:right;
 	height:220px;
-	margin-right:250px;
+	position:relative;
+	left:220px;
+	animation-name:flee;
+	animation-duration:2.6s;
+	animation-iteration-count:infinite;
 }
 
 #bowser
 {
 	height:220px;
-	float:left;
-	margin-left:250px;
+	position:relative;
+	left:220px;
+	animation-name:pursuit;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
 }
+
