@@ -1,0 +1,46 @@
+body
+{
+	background-image:url('background.jpg');
+	background-size:cover;
+}
+
+p
+{
+	text-align:center;
+	font-size:3em;
+	font-family: "Pixel";
+	color:white;
+	text-shadow:3px 3px 3px black;
+}
+
+article
+{
+	margin:auto;
+	margin-top:298px;
+
+}
+
+@font-face {
+	font-family: "Pixel";
+	src: url("pixel-miners.otf");
+}
+
+strong
+{
+	color:red;
+}
+
+
+img
+{
+	float:right;
+	height:220px;
+	margin-right:250px;
+}
+
+#bowser
+{
+	height:220px;
+	float:left;
+	margin-left:250px;
+}
