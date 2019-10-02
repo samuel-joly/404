@@ -30,20 +30,21 @@ strong
 	color:red;
 }
 
-
-@keyframes pursuit {
+@keyframes pursuit 
+{
 	from {left:220px;}
 	to {left:1400px;}
 }
 
-@keyframes flee{
+@keyframes flee
+{
 	from {left:220px;}
 	to {left:1300px;}
 }
 
 #peach
 {
-	height:220px;
+	height:150px;
 	position:relative;
 	left:220px;
 	animation-name:flee;
